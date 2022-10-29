@@ -1,6 +1,8 @@
+using Entities;
+
 namespace DataAccess.Abstract;
 
-public interface ICategoryRepository
+public interface ICategoryRepository : IGenericRepository<Category>
 {
 
 }

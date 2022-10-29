@@ -1,6 +1,8 @@
+using Entities;
+
 namespace DataAccess.Abstract;
 
-public interface IProductFeatureRepository
+public interface IProductFeatureRepository : IGenericRepository<ProductFeature>
 {
 
 }
